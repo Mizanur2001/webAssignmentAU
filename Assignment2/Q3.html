@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Q3.css">
+</head>
+
+<body>
+    <div class="mainDiv">
+        <div class="mainDivWrapper">
+            <div class="inputDiv">
+                <label for="userNmae">User Name</label>
+                <input type="text" placeholder="Your User Name Please" id="username">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password Please" id="password">
+            </div>
+            <div class="btnDiv">
+                <button onclick="funcLogin(document.getElementById('username').value,document.getElementById('password').value)">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./Q3.js"></script>
+</html>

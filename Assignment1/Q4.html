@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Student Application Form</title>
+    <style>
+        label {
+            margin-top: 20px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body style="display: flex; align-items: center; justify-content: center; height: 1200px; width: 90vw;">
+    <form action="submil.php" method="post"
+        style="display: flex; flex-direction: column; width: 20%; height: 100%; justify-content: center;">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter Your name">
+        <label for="Father's name">Father's Name</label>
+        <input type="text" placeholder="Enter Your Father's Name">
+        <label for="Mother's name">Mother's Name</label>
+        <input type="text" placeholder="Enter Your Mother's Name">
+        <label for="Address">Address</label>
+        <textarea name="address" id="address" cols="10" rows="10" placeholder="Enter Your Address"></textarea>
+        <label for="dob">Your Date Of Birth</label>
+        <input type="date">
+        <label for="Gender">Gender</label>
+        <span>
+            <input type="radio" name="gender">
+            <label for="Gender">M</label>
+        </span>
+        <span>
+            <input type="radio" name="gender">
+            <label for="Gender">F</label>
+        </span>
+        <span>
+            <input type="radio" name="gender">
+            <label for="Gender">O</label>
+        </span>
+        <label for="knownLng">Known language</label>
+        <span>
+            <input type="checkbox" name="bengali">
+            <label for="Gender">Bengali</label>
+        </span>
+        <span>
+            <input type="checkbox" name="english">
+            <label for="Gender">English</label>
+        </span>
+        <span>
+            <input type="checkbox" name="hindi">
+            <label for="Gender">Hindi</label>
+        </span>
+        <label for="caste">Caste</label>
+        <select name="caste">
+            <option value="select">select</option>
+            <option value="hindus">Hindus</option>
+            <option value="Muslims">Muslims</option>
+            <option value="Christians">Christians</option>
+            <option value="Other">Other</option>
+        </select>
+        <label for="Category">Category</label>
+        <select name="Category">
+            <option value="select">select</option>
+            <option value="Genaral">Genaral</option>
+            <option value="OBC-A">OBC-A</option>
+            <option value="OBC-B">OBC-B</option>
+            <option value="SC/ST">SC/ST</option>
+        </select>
+        <label for="Course">Course</label>
+        <select name="Course">
+            <option value="select">select</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="MCA">MCA</option>
+        </select>
+        <label for="combination">Combination</label>
+        <select name="combination">
+            <option value="select">select</option>
+            <option value="CSE">CSE</option>
+            <option value="MEN">MEN</option>
+            <option value="ECE">ECE</option>
+            <option value="EEN">EEN</option>
+        </select>
+        <label for="combination">Admission_year</label>
+        <select name="combination">
+            <option value="select">select</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+        </select>
+        <label for="phone">Contact_Number</label>
+        <input type="number" placeholder="Enter your Contact Number">
+        <label for="email">E-mail</label>
+        <input type="email" placeholder="Enter your Email Id">
+        <label for="email">Aadher_no</label>
+        <input type="number" placeholder="Enter Your Aadher_no">
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
