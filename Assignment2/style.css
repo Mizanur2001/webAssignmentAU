@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.calculator{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator .calWarapper{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.calculator .calWarapper #screen{
+    padding: 10px 33px;
+    font-weight: bold;
+}
+
+.calculator .calWarapper .btnWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px;
+}
+
+.calculator .calWarapper .btnWrapper .btn{
+    padding: 10px 30px;
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cls,.funcBtn{
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+    border:none;
+    outline:none;
+}
